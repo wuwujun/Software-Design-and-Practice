@@ -5,7 +5,7 @@
 
 int next_array[max_num];
 
-//递归求next数组
+//閫掑綊姹俷ext鏁扮粍
 void find_next(char * st, int next[])
 {
 	int len = strlen(st);
@@ -29,7 +29,7 @@ void find_next(char * st, int next[])
 	}
 }
 
-//利用next数组进行匹配
+//鍒╃敤next鏁扮粍杩涜鍖归厤
 int kmp_index(char * ts, char * ps, int next[])
 {
 	int i = 0, j = 0;
