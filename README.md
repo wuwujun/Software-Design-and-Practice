@@ -8,7 +8,7 @@ which includes:
     
 * **SikpList**
 * **KMP**
-* **Priority Queue**
+* **PriorityQueue**
 * **MatrixTranspose**
     
 
