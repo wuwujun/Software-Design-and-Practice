@@ -4,8 +4,8 @@ Task1
     Task1 are Software Engineering Homework in the first two week, 
     which includes the skip list, k-m-p algorithm, priority queue, and the matrix transpose.
 ### SikpList
+* Simple option list:
 
-#### Simple option list:
         printf("### Function Test ###\n");
         printf("Please chose one point:\n");
         printf("1.Insert\n");
@@ -15,7 +15,8 @@ Task1
 
 `Every option is connected to a particular function.`
 	
-#### Test example:
+* Test example:
+
 `For convenience, I set a array in code directly:`
         
         int num[7] = {4, 6, 3, 2, 5, 9, 7};
