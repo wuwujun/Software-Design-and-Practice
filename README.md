@@ -13,15 +13,15 @@ Task1
         printf("3.Search\n");
         printf("4.Exit\n");
 
-`Every option is connected to a particular function.`
+	`Every option is connected to a particular function.`
 	
 * Test example:
 
-`For convenience, I set a array in code directly:`
+	`For convenience, I set a array in code directly:`
         
         int num[7] = {4, 6, 3, 2, 5, 9, 7};
         
-`Use this to initialize the skip list:`
+	`Use this to initialize the skip list:`
         
         for (i = 1; i < 8; i++)
 	    {
