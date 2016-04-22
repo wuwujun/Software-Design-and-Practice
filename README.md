@@ -19,3 +19,23 @@ which includes:
 * **BTreeToForest**
 * **ForestToBtree**
 * **K-Huffman**
+
+> Detailed informantion refers to `README-Task3.md`. 
+Task3 is Software Engineering Homework in the third two weeks, 
+which includes:
+
+* **UndirectedGraphTarjan**
+* **DirectedGraphTarjan**
+* **PrimeAndKruskal**
+* **PrimeViaHeap**
+* **ShortesPathDijkstra**
+* **ShortestPathFloyd**
+
+> Detailed informantion refers to `README-Task4.md`. 
+Task4 is Software Engineering Homework in the forth two weeks, 
+which includes:
+
+* **RedBlackTree**
+* **Hash**
+
+
