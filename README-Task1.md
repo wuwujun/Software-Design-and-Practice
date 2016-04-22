@@ -70,25 +70,23 @@ struct node_str * n = (struct node_str *)malloc(sizeof(struct node_str) + level 
     
 >	In `insert()`, we finish this work by three steps :
 > 
-* the first one is to find the index the node should insert into.
-> 
-if the key has exisited, we return directly.
+* the first one is to find the index the node should insert into. If the key has exisited, we return directly.
 >>```c
 //this marks the node path along which we find the inserts' index
 struct node_str * update[max_level];  
 ```
 > 	
-* the second one is to get how many levels we should insert, invoke `random_level()`
+* the second one is to get how many levels we should insert, invoke `random_level()`.
 > 
-* if the new level we get is bigger than current level, we should upadate `update[]` and `l->level = level`
+* if the new level we get is bigger than current level, we should upadate `update[]` and `l->level = level`.
 > 
-* the third one is to insert, we finish this as the same as we do in linked list inserting job
+* the third one is to insert, we finish this as the same as we do in linked list inserting job.
 
 > 
 In `del()`, it's similar to the insert process : 
 we find the index firstly and then delete the node as we do in linked list deleting job.
 
->	In `free_list()`, we free nodes layer by layer and then free l 
+>	In `free_list()`, we free nodes layer by layer and then free l.
 
 >	In `print()`, we print the SikpList layer by layer.
 
