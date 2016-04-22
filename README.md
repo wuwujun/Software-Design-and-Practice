@@ -2,7 +2,7 @@
     IDE :　VS2015 Community
 Task1
 ------------
-> Detailed informantion refers to `README-Task1.md`. 
+>  
 Task1 is Software Engineering Homework in the first two weeks, 
 which includes:
     
@@ -13,7 +13,7 @@ which includes:
 
 Task2
 ------------  
-> Detailed informantion refers to `README-Task2.md`. 
+>
 Task2 is Software Engineering Homework in the second two weeks, 
 which includes:
 
@@ -24,7 +24,7 @@ which includes:
 
 Task3
 ------------
-> Detailed informantion refers to `README-Task3.md`. 
+>
 Task3 is Software Engineering Homework in the third two weeks, 
 which includes:
 
@@ -37,7 +37,7 @@ which includes:
 
 Task4
 ------------
-> Detailed informantion refers to `README-Task4.md`. 
+> 
 Task4 is Software Engineering Homework in the forth two weeks, 
 which includes:
 
