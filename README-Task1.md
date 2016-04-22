@@ -92,3 +92,8 @@ In `del()`, it's similar to the insert process :
 
 >	In `print()`, we print the SikpList layer by layer.
 
+
+* **Time Complexity:**
+
+>	`O(logn)`
+
