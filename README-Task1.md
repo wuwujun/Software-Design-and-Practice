@@ -40,7 +40,7 @@ void print(list l);
 int random_level();      
 ```
 
->	In `ramdom_level()`, we compute the level which the data will be insert into randomly
+>	In `ramdom_level()`, we compute the level which the data will be insert into randomly.
 >	We use the method which has the same theory as "coin tossing" :
 >>```c
 while (rand() % 2)    // rand() % 2 = 0 or 1
@@ -72,7 +72,7 @@ struct node_str * n = (struct node_str *)malloc(sizeof(struct node_str) + level 
 > 
 * the first one is to find the index the node should insert into.
 > 
->> if the key has exisited, we return directly.
+if the key has exisited, we return directly.
 >>```c
 //this marks the node path along which we find the inserts' index
 struct node_str * update[max_level];  
