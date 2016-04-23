@@ -75,13 +75,15 @@ struct node_str * n = (struct node_str *)malloc(sizeof(struct node_str) + level 
     
 >	In `insert()`, we finish this work by three steps :
 >> 	
-* the first one is to find the index the node should insert into. 
->	If the key has exisited, we return directly.
+* the first one is to find the index the node should insert into. And we should mark the node path during this process so that 
+we can update these nodes after inserting. 
+>> 
+	If the key has exisited, we return directly.
 
->>```c
-//this marks the node path along which we find the inserts' index
-struct node_str * update[max_level];  
-```
+>>	```c
+	//this marks the node path along which we find the inserts' index
+	struct node_str * update[max_level];  
+	```
 >>	
 * the second one is to get how many levels we should insert, invoke `random_level()`.
 >>
