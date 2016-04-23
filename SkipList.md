@@ -6,8 +6,13 @@
 ### SikpList ###
 * **Introduction:**
     
-		SkipList is eqaul to many linked lists in parallel. The node in every raw has the same key. 
-		We choose it because it has the same efficiency as AVL tree but it's simpler and it takes up less space.
+		SkipList is eqaul to many linked lists in parallel. 
+		
+		The node in every raw has the same key. 
+		
+		But the node in every column are sorted in order from lowest key to highest key.
+
+		We choose it for it has the same efficiency as AVL tree but it's simpler and it takes up less space.
 
 * **Data Structure:**
 
