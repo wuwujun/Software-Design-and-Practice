@@ -19,7 +19,7 @@ which includes:
 
 * **ThreadedBinaryTree**
 * **BTreeToForest**
-* **ForestToBtree**
+* **ForestToBTree**
 * **K-Huffman**
 
 Task3
