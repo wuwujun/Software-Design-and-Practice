@@ -50,5 +50,5 @@ Task5
 Task5 is Software Engineering Homework in the last two weeks, 
 which includes:
 
-* **Sort(quicksort and LinearSorting)**
+* **Sort(Quicksort and LinearSorting)**
 
