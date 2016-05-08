@@ -39,6 +39,16 @@
     };
     typedef struct stack * st;
     ```
+    用到的几个全局变量：
+    ```c
+    int visited[maxsize];             //访问标记数组
+    int count;                       //用于编号
+    int num;			    		//用于标记是第几个强连通分量
+    int dfn[maxsize];              //顶点的先深编号         
+    int instack[maxsize];         //标记节点是否在栈中
+    int low[maxsize];		
+    ```
+    
 * **几个概念**
 
     进行一遍先深搜索可以将有向图中的边分为三类：
